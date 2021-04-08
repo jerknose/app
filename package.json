@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/webaverse/app/issues"
   },
-  "homepage": "https://github.com/webaverse/app",
+  "homepage": "https://reckless.technology/webaverse/webaverse-dev/",
   "dependencies": {
     "express": "^4.17.1"
   },
