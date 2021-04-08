@@ -117,7 +117,7 @@ let danceAnimations;
 let throwAnimations;
 let crouchAnimations;
 const loadPromise = (async () => {
-  const res = await fetch('./../animations/animations.cbor');
+  const res = await fetch('./animations/animations.cbor');
   const arrayBuffer = await res.arrayBuffer();
   animations = CBOR.decode(arrayBuffer).animations
     .map(a => THREE.AnimationClip.parse(a));
